@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="µMIC.200_blinky" buildProperties="" description="" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804" name="/" resourcePath="">
+						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.401890858" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.819216992" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="/home/ubuntu/Examples/blinky/project" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base.501405632" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Remote Gnu Make Builder" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.955384934" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1191165428" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.145821573" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1918066026" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="ptp.rdt.gnu.c.compiler.option.include.paths.2033970747" name="Include paths (-I)" superClass="ptp.rdt.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.8"/>
+									<listOptionValue builtIn="false" value="/usr/include/arm-linux-gnueabihf/c++/4.8"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.8/backward"/>
+									<listOptionValue builtIn="false" value="/usr/lib/gcc/arm-linux-gnueabihf/4.8/include"/>
+									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="/usr/lib/gcc/arm-linux-gnueabihf/4.8/include-fixed"/>
+									<listOptionValue builtIn="false" value="/usr/include/arm-linux-gnueabihf"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="&quot;\home\ubuntu\Examples\blinky\source&quot;"/>
+								</option>
+								<option id="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols.856145533" name="Defined symbols (-D)" superClass="ptp.rdt.gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__FLT_EVAL_METHOD__=0"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT16_TYPE__=short unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__SIG_ATOMIC_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__INT_FAST32_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT32_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__DEC64_MANT_DIG__=16"/>
+									<listOptionValue builtIn="false" value="__FLT_EPSILON__=1.1920928955078125e-7F"/>
+									<listOptionValue builtIn="false" value="__FLT_MAX_EXP__=128"/>
+									<listOptionValue builtIn="false" value="__UINT_FAST16_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__DBL_MIN__=double(2.2250738585072014e-308L)"/>
+									<listOptionValue builtIn="false" value="__LDBL_EPSILON__=2.2204460492503131e-16L"/>
+									<listOptionValue builtIn="false" value="__DEC64_MIN__=1E-383DD"/>
+									<listOptionValue builtIn="false" value="&quot;__INT_LEAST64_TYPE__=long long int&quot;"/>
+									<listOptionValue builtIn="false" value="__SCHAR_MAX__=127"/>
+									<listOptionValue builtIn="false" value="__DEC128_MANT_DIG__=34"/>
+									<listOptionValue builtIn="false" value="&quot;__UINTPTR_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__DBL_MIN_10_EXP__=(-307)"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT64_C(c)=c ## ULL&quot;"/>
+									<listOptionValue builtIn="false" value="__DBL_DENORM_MIN__=double(4.9406564584124654e-324L)"/>
+									<listOptionValue builtIn="false" value="&quot;__INT_FAST8_TYPE__=signed char&quot;"/>
+									<listOptionValue builtIn="false" value="__DBL_HAS_DENORM__=1"/>
+									<listOptionValue builtIn="false" value="__SHRT_MAX__=32767"/>
+									<listOptionValue builtIn="false" value="__DEC32_MAX__=9.999999E96DF"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_DOUBLE__=8"/>
+									<listOptionValue builtIn="false" value="__ORDER_LITTLE_ENDIAN__=1234"/>
+									<listOptionValue builtIn="false" value="__LDBL_HAS_QUIET_NAN__=1"/>
+									<listOptionValue builtIn="false" value="__FLT_MIN_EXP__=(-125)"/>
+									<listOptionValue builtIn="false" value="__LDBL_MANT_DIG__=53"/>
+									<listOptionValue builtIn="false" value="__DEC32_EPSILON__=1E-6DF"/>
+									<listOptionValue builtIn="false" value="__INT8_MAX__=127"/>
+									<listOptionValue builtIn="false" value="__FLT_DENORM_MIN__=1.4012984643248171e-45F"/>
+									<listOptionValue builtIn="false" value="&quot;__CHAR32_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__INTPTR_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__WCHAR_MIN__=0U"/>
+									<listOptionValue builtIn="false" value="__LDBL_DIG__=15"/>
+									<listOptionValue builtIn="false" value="__INT_LEAST8_MAX__=127"/>
+									<listOptionValue builtIn="false" value="__LDBL_DENORM_MIN__=4.9406564584124654e-324L"/>
+									<listOptionValue builtIn="false" value="__DEC128_MAX__=9.999999999999999999999999999999999E6144DL"/>
+									<listOptionValue builtIn="false" value="__DEC32_MIN_EXP__=(-94)"/>
+									<listOptionValue builtIn="false" value="__INT_FAST8_MAX__=127"/>
+									<listOptionValue builtIn="false" value="__UINT_LEAST8_MAX__=255"/>
+									<listOptionValue builtIn="false" value="__UINTMAX_MAX__=18446744073709551615ULL"/>
+									<listOptionValue builtIn="false" value="__FLT_MIN_10_EXP__=(-37)"/>
+									<listOptionValue builtIn="false" value="__UINTPTR_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__UINT64_MAX__=18446744073709551615ULL"/>
+									<listOptionValue builtIn="false" value="__WCHAR_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__INT_FAST16_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__GNUC_PATCHLEVEL__=4"/>
+									<listOptionValue builtIn="false" value="__LDBL_HAS_DENORM__=1"/>
+									<listOptionValue builtIn="false" value="__GXX_ABI_VERSION=1002"/>
+									<listOptionValue builtIn="false" value="__DEC32_SUBNORMAL_MIN__=0.000001E-95DF"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_RELEASE=3"/>
+									<listOptionValue builtIn="false" value="&quot;__UINTMAX_C(c)=c ## ULL&quot;"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_POINTER__=4"/>
+									<listOptionValue builtIn="false" value="__INT_LEAST64_MAX__=9223372036854775807LL"/>
+									<listOptionValue builtIn="false" value="__DBL_MIN_EXP__=(-1021)"/>
+									<listOptionValue builtIn="false" value="__WINT_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__FLT_MAX_10_EXP__=38"/>
+									<listOptionValue builtIn="false" value="__LDBL_HAS_INFINITY__=1"/>
+									<listOptionValue builtIn="false" value="__DEC64_MIN_EXP__=(-382)"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_LEAST32_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_ACQ_REL=4"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_LONG_DOUBLE__=8"/>
+									<listOptionValue builtIn="false" value="__DEC32_MIN__=1E-95DF"/>
+									<listOptionValue builtIn="false" value="__SIZE_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__UINT_FAST32_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__LDBL_MIN_10_EXP__=(-307)"/>
+									<listOptionValue builtIn="false" value="__EXCEPTIONS=1"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_LONG_LONG__=8"/>
+									<listOptionValue builtIn="false" value="__INT_FAST64_MAX__=9223372036854775807LL"/>
+									<listOptionValue builtIn="false" value="__UINT_FAST8_MAX__=255"/>
+									<listOptionValue builtIn="false" value="__DBL_DECIMAL_DIG__=17"/>
+									<listOptionValue builtIn="false" value="__DEPRECATED=1"/>
+									<listOptionValue builtIn="false" value="__DEC64_MAX_EXP__=385"/>
+									<listOptionValue builtIn="false" value="&quot;__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)&quot;"/>
+									<listOptionValue builtIn="false" value="__FLT_MIN__=1.1754943508222875e-38F"/>
+									<listOptionValue builtIn="false" value="__DBL_EPSILON__=double(2.2204460492503131e-16L)"/>
+									<listOptionValue builtIn="false" value="__GXX_RTTI=1"/>
+									<listOptionValue builtIn="false" value="__INT16_MAX__=32767"/>
+									<listOptionValue builtIn="false" value="__UINT_FAST64_MAX__=18446744073709551615ULL"/>
+									<listOptionValue builtIn="false" value="__UINT16_C(c)=c"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_SIZE_T__=4"/>
+									<listOptionValue builtIn="false" value="__DEC128_MAX_EXP__=6145"/>
+									<listOptionValue builtIn="false" value="__LDBL_MAX_EXP__=1024"/>
+									<listOptionValue builtIn="false" value="__DBL_DIG__=15"/>
+									<listOptionValue builtIn="false" value="__UINT_LEAST64_MAX__=18446744073709551615ULL"/>
+									<listOptionValue builtIn="false" value="__FLT_MANT_DIG__=24"/>
+									<listOptionValue builtIn="false" value="__UINT_LEAST16_MAX__=65535"/>
+									<listOptionValue builtIn="false" value="__FLT_RADIX__=2"/>
+									<listOptionValue builtIn="false" value="__GNUC_MINOR__=8"/>
+									<listOptionValue builtIn="false" value="__ORDER_PDP_ENDIAN__=3412"/>
+									<listOptionValue builtIn="false" value="&quot;__INTMAX_C(c)=c ## LL&quot;"/>
+									<listOptionValue builtIn="false" value="__BIGGEST_ALIGNMENT__=8"/>
+									<listOptionValue builtIn="false" value="__DEC64_MAX__=9.999999999999999E384DD"/>
+									<listOptionValue builtIn="false" value="&quot;__INTMAX_TYPE__=long long int&quot;"/>
+									<listOptionValue builtIn="false" value="__FLT_DIG__=6"/>
+									<listOptionValue builtIn="false" value="__UINT8_MAX__=255"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_LEAST16_TYPE__=short unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__LDBL_MIN_EXP__=(-1021)"/>
+									<listOptionValue builtIn="false" value="__INT_LEAST32_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__WINT_MIN__=0U"/>
+									<listOptionValue builtIn="false" value="__UINT32_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__INT64_MAX__=9223372036854775807LL"/>
+									<listOptionValue builtIn="false" value="__INT16_C(c)=c"/>
+									<listOptionValue builtIn="false" value="__INT_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__INT32_C(c)=c"/>
+									<listOptionValue builtIn="false" value="__DEC64_EPSILON__=1E-15DD"/>
+									<listOptionValue builtIn="false" value="__LONG_LONG_MAX__=9223372036854775807LL"/>
+									<listOptionValue builtIn="false" value="__INT32_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__DBL_HAS_INFINITY__=1"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT32_C(c)=c ## U&quot;"/>
+									<listOptionValue builtIn="false" value="__DBL_MAX_10_EXP__=308"/>
+									<listOptionValue builtIn="false" value="DEBUG=0"/>
+									<listOptionValue builtIn="false" value="__FLT_HAS_QUIET_NAN__=1"/>
+									<listOptionValue builtIn="false" value="__INT_LEAST32_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__SIG_ATOMIC_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__STDC__=1"/>
+									<listOptionValue builtIn="false" value="__FLT_HAS_DENORM__=1"/>
+									<listOptionValue builtIn="false" value="__LDBL_MIN__=2.2250738585072014e-308L"/>
+									<listOptionValue builtIn="false" value="__INT_LEAST16_MAX__=32767"/>
+									<listOptionValue builtIn="false" value="__DEC128_EPSILON__=1E-33DL"/>
+									<listOptionValue builtIn="false" value="__FLT_DECIMAL_DIG__=9"/>
+									<listOptionValue builtIn="false" value="&quot;__INT8_TYPE__=signed char&quot;"/>
+									<listOptionValue builtIn="false" value="__GNUC__=4"/>
+									<listOptionValue builtIn="false" value="__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
+									<listOptionValue builtIn="false" value="&quot;__INT_LEAST8_TYPE__=signed char&quot;"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_FLOAT__=4"/>
+									<listOptionValue builtIn="false" value="__INTMAX_MAX__=9223372036854775807LL"/>
+									<listOptionValue builtIn="false" value="&quot;__INT_FAST64_TYPE__=long long int&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT64_TYPE__=long long unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_SEQ_CST=5"/>
+									<listOptionValue builtIn="false" value="__DEC32_MAX_EXP__=97"/>
+									<listOptionValue builtIn="false" value="__VERSION__=&quot;4.8.4&quot;"/>
+									<listOptionValue builtIn="false" value="__INT32_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__DEC128_MIN_EXP__=(-6142)"/>
+									<listOptionValue builtIn="false" value="&quot;__INT64_C(c)=c ## LL&quot;"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_INT__=4"/>
+									<listOptionValue builtIn="false" value="__LONG_MAX__=2147483647L"/>
+									<listOptionValue builtIn="false" value="__INT8_C(c)=c"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_FAST64_TYPE__=long long unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__ORDER_BIG_ENDIAN__=4321"/>
+									<listOptionValue builtIn="false" value="&quot;__INT16_TYPE__=short int&quot;"/>
+									<listOptionValue builtIn="false" value="__UINT_LEAST32_MAX__=4294967295U"/>
+									<listOptionValue builtIn="false" value="__PTRDIFF_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__INTPTR_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="__CHAR_BIT__=8"/>
+									<listOptionValue builtIn="false" value="__UINT8_C(c)=c"/>
+									<listOptionValue builtIn="false" value="__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL"/>
+									<listOptionValue builtIn="false" value="&quot;__INT64_TYPE__=long long int&quot;"/>
+									<listOptionValue builtIn="false" value="__DBL_HAS_QUIET_NAN__=1"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_SHORT__=2"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_ACQUIRE=2"/>
+									<listOptionValue builtIn="false" value="__DBL_MAX_EXP__=1024"/>
+									<listOptionValue builtIn="false" value="&quot;__WINT_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__"/>
+									<listOptionValue builtIn="false" value="__DEC_EVAL_METHOD__=2"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_CONSUME=1"/>
+									<listOptionValue builtIn="false" value="__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD"/>
+									<listOptionValue builtIn="false" value="__DBL_MANT_DIG__=53"/>
+									<listOptionValue builtIn="false" value="__FLT_MAX__=3.4028234663852886e+38F"/>
+									<listOptionValue builtIn="false" value="__INT_FAST32_TYPE__=int"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_FAST16_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_LEAST64_TYPE__=long long unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_FAST8_TYPE__=unsigned char&quot;"/>
+									<listOptionValue builtIn="false" value="__DEC128_MIN__=1E-6143DL"/>
+									<listOptionValue builtIn="false" value="__PTRDIFF_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="&quot;__INT_LEAST16_TYPE__=short int&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__SIZE_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__FLT_HAS_INFINITY__=1"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT8_TYPE__=unsigned char&quot;"/>
+									<listOptionValue builtIn="false" value="__DEC32_MANT_DIG__=7"/>
+									<listOptionValue builtIn="false" value="__STDC_HOSTED__=1"/>
+									<listOptionValue builtIn="false" value="__DECIMAL_DIG__=17"/>
+									<listOptionValue builtIn="false" value="__ATOMIC_RELAXED=0"/>
+									<listOptionValue builtIn="false" value="__LDBL_MAX_10_EXP__=308"/>
+									<listOptionValue builtIn="false" value="__DBL_MAX__=double(1.7976931348623157e+308L)"/>
+									<listOptionValue builtIn="false" value="__GXX_WEAK__=1"/>
+									<listOptionValue builtIn="false" value="__SIZEOF_LONG__=4"/>
+									<listOptionValue builtIn="false" value="&quot;__UINTMAX_TYPE__=long long unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__INT_FAST16_MAX__=2147483647"/>
+									<listOptionValue builtIn="false" value="__LDBL_MAX__=1.7976931348623157e+308L"/>
+									<listOptionValue builtIn="false" value="__FINITE_MATH_ONLY__=0"/>
+									<listOptionValue builtIn="false" value="__UINT16_MAX__=65535"/>
+									<listOptionValue builtIn="false" value="&quot;__WCHAR_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__GNUG__=4"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_LEAST8_TYPE__=unsigned char&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__UINT_FAST32_TYPE__=unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;__CHAR16_TYPE__=short unsigned int&quot;"/>
+									<listOptionValue builtIn="false" value="__cplusplus=199711L"/>
+								</option>
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.410623273" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.1498220872" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.2107412630" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="ptp.rdt.gnu.cpp.link.option.libs.1279334926" name="Libraries (-l)" superClass="ptp.rdt.gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="&quot;${workspace_loc:/µMIC.200_blinky/project/libumic.so.1.0}&quot;"/>
+								</option>
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.1761419967" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.919155304" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.1616501211" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="source" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="source"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="µMIC.200_blinky.null.1597200508" name="µMIC.200_blinky"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/µMIC.200_blinky"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.ui.doxygen">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816.4417235;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.2133731657;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.1250243664">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.107651790;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.1843012773">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1261148190;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.619396635">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.209019079;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.1687516672">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816.4417235">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1191165428;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.145821573">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1328801992;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1991126772">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1309506816.4417235;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.348949961;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.580435304">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1776090529;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.1679356251">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1918066026;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.410623273">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964.1277749804;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1223859407;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.1707715071">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="all" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="clean" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="run" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>run</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

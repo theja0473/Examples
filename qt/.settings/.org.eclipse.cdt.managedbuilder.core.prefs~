@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/CPATH/operation=remove
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/append=true
+environment/buildEnvironmentInclude/org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.960707964/appendContributed=true

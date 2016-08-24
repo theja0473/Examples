@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="µMIC.200_watchdog" buildProperties="" description="" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739.960581267" name="/" resourcePath="">
+						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1534430470" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.924862189" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/µMIC.200_watchdog/project}" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base.1910404257" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Remote Gnu Make Builder" stopOnErr="true" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.1620927535" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1800169333" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.253202304" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1356657196" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.500502557" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.211813100" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.571081857" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.597612823" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.470426652" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.1303424081" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="source" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="source"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="µMIC.200_watchdog.null.873712339" name="µMIC.200_watchdog"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/µMIC.200_watchdog"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.ui.doxygen">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739.960581267">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739.960581267;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1800169333;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.253202304">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1871640739.960581267;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1356657196;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.500502557">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="all" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="clean" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="run" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>run</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>
