@@ -10,31 +10,17 @@
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.autotools.core.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="µMIC.200_digital-io" buildProperties="" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1476051471" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+				<configuration artifactName="µMIC.200_digital-io" buildProperties="" description="" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1476051471" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
 					<folderInfo id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1476051471.1057000778" name="/" resourcePath="">
-						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1817039035" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
-							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1334984593" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="/home/ubuntu/Examples/digital-io" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base.1354361896" managedBuildOn="false" name="Remote Gnu Make Builder.Default" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.2097655767" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1775890991" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.467481013" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1037870731" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.625860359" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.1173330655" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.1105002856" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.775310746" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
-									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
-									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
-								</inputType>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.1825448337" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.216184678" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
-							</tool>
+						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.1817039035" name="Remote Linux GCC Tool Chain">
+							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1334984593" name="Debug Platform" osList="linux,hpux,aix,qnx"/>
+							<builder buildPath="/home/ubuntu/Examples/digital-io" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base.1354361896" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Remote Gnu Make Builder.Default"/>
 						</toolChain>
 					</folderInfo>
 				</configuration>
