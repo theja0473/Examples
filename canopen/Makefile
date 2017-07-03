@@ -1,5 +1,5 @@
 #=============================================================================#
-# Makefile for project: µMIC.200 Blinky example                               #
+# Makefile for project: µMIC.200 CANopen example                              #
 # Target              : µMIC.200 with Cortex-A8 CPU                           #
 #-----------------------------------------------------------------------------#
 #
@@ -10,7 +10,7 @@
 # Target name                                                                 #
 #                                                                             #
 #-----------------------------------------------------------------------------#
-TARGET     = umic_blinky
+TARGET     = umic_canopen
 TARGET_HW  = mMIC.200
 
 
@@ -125,7 +125,7 @@ endif
 # Specific user/application symbol definition
 #
 MC_FLAG += -DDEBUG=$(DEBUG)
-
+MC_FLAG += -D_GNU_SOURCE
 
 #-----------------------------------------------------------------------------#
 # GCC compiler and linker settings                                            #
@@ -144,7 +144,7 @@ CFLAGS += $(OPTIMIZE) $(GDB_FLAG) $(WARN) $(INC_DIR) -c $(MC_FLAG)
 LFLAGS  = $(INC_DIR)
 
 
-LIBS    = -lumic
+LIBS    = -lcanopen -lrt -pthread
 
 
 #-----------------------------------------------------------------------------#
@@ -157,7 +157,8 @@ LIBS    = -lumic
 # Application object files 
 #
 #--------------------------------------------------------------------
-APP_SRC =	app_blinky.c
+APP_SRC =	com_main_linux.c   \
+			com_user_linux.c
 
 
 
