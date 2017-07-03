@@ -1,98 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
-		<cconfiguration id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386">
-			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386" moduleId="org.eclipse.cdt.core.settings" name="Default">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.cross.base.283334905">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.cross.base.283334905" moduleId="org.eclipse.cdt.core.settings" name="Default">
 				<externalSettings/>
 				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
 					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
-					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactName="µMIC.200_fram" buildProperties="" description="" id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
-					<folderInfo id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386.1799841633" name="/" resourcePath="">
-						<toolChain id="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.415437355" name="Remote Linux GCC Tool Chain" superClass="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base">
-							<targetPlatform archList="all" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base.1418367293" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.platform.base"/>
-							<builder buildPath="${workspace_loc:/µMIC.200_fram/project}" id="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base.514213238" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Remote Gnu Make Builder" superClass="org.eclipse.ptp.rdt.managedbuild.target.gnu.builder.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base.380638487" name="Remote GCC Archiver" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.archiver.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1629156181" name="Remote GCC C++ Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.2084183049" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.cross.base.283334905" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.cross.base.283334905.1488446101" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cross.base.2130639989" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.base">
+							<option id="cdt.managedbuild.option.gnu.cross.prefix.1058369410" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix"/>
+							<option id="cdt.managedbuild.option.gnu.cross.path.1930968740" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.839694040" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder arguments="umic@uMIC.200 make -C  /home/umic/Examples/fram" command="ssh" id="cdt.managedbuild.builder.gnu.cross.1656466727" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.compiler.1474569010" name="Cross GCC Compiler" superClass="cdt.managedbuild.tool.gnu.cross.c.compiler">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.491985239" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1669073068" name="Remote GCC C Compiler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.820560659" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input"/>
-							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base.411098720" name="Remote GCC C Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.linker.base"/>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base.401739836" name="Remote GCC C++ Linker" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input.1905231610" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.linker.input">
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.compiler.1731019075" name="Cross G++ Compiler" superClass="cdt.managedbuild.tool.gnu.cross.cpp.compiler"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.799542323" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.744362331" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
 							</tool>
-							<tool id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base.1651448872" name="Remote GCC Assembler" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.base">
-								<inputType id="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input.1494232301" superClass="org.eclipse.ptp.rdt.managedbuild.tool.gnu.assembler.input"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1283547820" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.archiver.739717491" name="Cross GCC Archiver" superClass="cdt.managedbuild.tool.gnu.cross.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cross.assembler.1795541661" name="Cross GCC Assembler" superClass="cdt.managedbuild.tool.gnu.cross.assembler">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1720775606" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries>
-						<entry excluding="source" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="source"/>
-					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-		<project id="µMIC.200_fram.null.2103764564" name="µMIC.200_fram"/>
+		<project id="fram.null.391807300" name="fram"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Default">
-			<resource resourceType="PROJECT" workspacePath="/µMIC.200_fram"/>
+			<resource resourceType="PROJECT" workspacePath="/fram"/>
 		</configuration>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386.1799841633;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.base.1669073068;org.eclipse.ptp.rdt.managedbuild.tool.gnu.c.compiler.input.820560659">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfile"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386.1799841633;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.base.1629156181;org.eclipse.ptp.rdt.managedbuild.tool.gnu.cpp.compiler.input.2084183049">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386;org.eclipse.ptp.rdt.managedbuild.toolchain.gnu.base.948265386.1799841633">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.ptp.rdt.managedbuilder.gnu.ui.RemoteGCCPerFileProfileCpp"/>
-		</scannerConfigBuildInfo>
-	</storageModule>
-	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 		<buildTargets>
-			<target name="all" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments/>
+			<target name="all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>ssh</buildCommand>
+				<buildArguments>umic@uMIC.200 make -C  /home/umic/Examples/fram</buildArguments>
 				<buildTarget>all</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>false</runAllBuilders>
+				<runAllBuilders>true</runAllBuilders>
 			</target>
-			<target name="clean" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments/>
+			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>ssh</buildCommand>
+				<buildArguments>umic@uMIC.200 make -C  /home/umic/Examples/fram</buildArguments>
 				<buildTarget>clean</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>false</runAllBuilders>
+				<runAllBuilders>true</runAllBuilders>
 			</target>
-			<target name="run" path="project" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>make</buildCommand>
-				<buildArguments/>
+			<target name="run" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>ssh</buildCommand>
+				<buildArguments>umic@uMIC.200 make -C  /home/umic/Examples/fram</buildArguments>
 				<buildTarget>run</buildTarget>
 				<stopOnError>true</stopOnError>
 				<useDefaultCommand>true</useDefaultCommand>
-				<runAllBuilders>false</runAllBuilders>
+				<runAllBuilders>true</runAllBuilders>
 			</target>
 		</buildTargets>
 	</storageModule>
