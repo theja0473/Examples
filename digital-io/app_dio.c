@@ -1,5 +1,5 @@
 //============================================================================//
-// File:          app_dio.h                                                   //
+// File:          app_dio.c                                                   //
 // Description:   Example for digital I/O                                     //
 //                                                                            //
 // Copyright (C) MicroControl GmbH & Co. KG                                   //

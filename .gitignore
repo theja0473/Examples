@@ -1,0 +1,17 @@
+/include
+/include-qt
+/.metadata/
+/RemoteSystemsTempFiles
+blinky/*.d
+blinky/*.o
+blinky/umic_blinky
+fram/*.d
+fram/*.o
+fram/umic_fram
+qt/Makefile
+qt/hello
+qt/*.o
+watchdog/*.d
+watchdog/*.o
+watchdog/umic_watchdog
+
