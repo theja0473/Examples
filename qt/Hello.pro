@@ -7,5 +7,5 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += ./../source/main.cpp
+SOURCES += main.cpp
 
