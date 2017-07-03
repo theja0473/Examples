@@ -30,26 +30,27 @@ APP_OBJS   = 1
 # Path setup (source and object directory)                                    #
 #                                                                             #
 #-----------------------------------------------------------------------------#
+PWD = $(shell pwd)
 
 #---------------------------------------------------------------
 # PRJ_DIR: absolute or relative path to project root directory
 #
-PRJ_DIR  = ./..
+PRJ_DIR  = $(PWD)
 
 #---------------------------------------------------------------
 # APP_DIR: path to application directory
 #
-APP_DIR  = $(PRJ_DIR)/source
+APP_DIR  = $(PRJ_DIR)
 
 #---------------------------------------------------------------
 # LIB_DIR: path to common library directory 
 #
-LIB_DIR = $(PRJ_DIR)/../umic_lib/lib
+LIB_DIR = 
 
 #----------------------------------------------------------
 # Object directory
 #
-OBJ_DIR  = $(PRJ_DIR)/objs
+OBJ_DIR  = $(PRJ_DIR)
 
 
 #-----------------------------------------------------------------------------#
@@ -71,9 +72,8 @@ FE =$(CROSS)fromelf
 #---------------------------------------------------------------
 # Include directory for header files
 #
-ifeq ($(APP_OBJS),1)
 INC_DIR   = -I $(APP_DIR)
-endif
+
 
 #---------------------------------------------------------------
 # Set VPATH to the same value like include paths
@@ -183,7 +183,7 @@ clean:
 	@rm -f $(OBJ_DIR)/*.a
 	@rm -f $(OBJ_DIR)/*.o
 	@rm -f $(OBJ_DIR)/*.d
-	@rm -f $(OBJ_DIR)/*.bin
+	@rm -f $(OBJ_DIR)/$(TARGET)
 	@rm -f $(OBJ_DIR)/*.elf
 	
 run: 
