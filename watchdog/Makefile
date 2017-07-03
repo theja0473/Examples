@@ -30,21 +30,27 @@ APP_OBJS   = 1
 # Path setup (source and object directory)                                    #
 #                                                                             #
 #-----------------------------------------------------------------------------#
+PWD = $(shell pwd)
 
 #---------------------------------------------------------------
 # PRJ_DIR: absolute or relative path to project root directory
 #
-PRJ_DIR  = ./..
+PRJ_DIR  = $(PWD)
 
 #---------------------------------------------------------------
 # APP_DIR: path to application directory
 #
-APP_DIR  = $(PRJ_DIR)/source
+APP_DIR  = $(PRJ_DIR)
+
+#---------------------------------------------------------------
+# LIB_DIR: path to common library directory 
+#
+LIB_DIR = 
 
 #----------------------------------------------------------
 # Object directory
 #
-OBJ_DIR  = $(PRJ_DIR)/objs
+OBJ_DIR  = $(PRJ_DIR)
 
 
 #-----------------------------------------------------------------------------#
@@ -66,9 +72,7 @@ FE =$(CROSS)fromelf
 #---------------------------------------------------------------
 # Include directory for header files
 #
-ifeq ($(APP_OBJS),1)
 INC_DIR   = -I $(APP_DIR)
-endif
 
 #---------------------------------------------------------------
 # Set VPATH to the same value like include paths
@@ -83,7 +87,6 @@ WARN  = -Wall
 WARN += -Wextra 
 WARN += -std=c99
 
-
 #---------------------------------------------------------------
 # TARGET CPU & FPU
 # CPU : CPU architecture for -mcpu, possible values
@@ -95,7 +98,6 @@ WARN += -std=c99
 #
 CPU = -mcpu=cortex-a8
 FPU = -mfloat-abi=hard -mfpu=neon-fp-armv8
-
 
 #---------------------------------------------------------------
 # Check for debug option flag
@@ -120,7 +122,6 @@ endif
 # Specific user/application symbol definition
 #
 MC_FLAG += -DDEBUG=$(DEBUG)
-
 
 #-----------------------------------------------------------------------------#
 # GCC compiler and linker settings                                            #
@@ -173,11 +174,10 @@ all: msg_compiling msg_compiler $(TARGET_OBJS)
 	$(CC) $(LFLAGS) -o $(OBJ_DIR)/$(TARGET) $(TARGET_OBJS) $(LIBS)
 
 clean:
-	@mkdir -p $(OBJ_DIR)
 	@rm -f $(OBJ_DIR)/*.a
 	@rm -f $(OBJ_DIR)/*.o
 	@rm -f $(OBJ_DIR)/*.d
-	@rm -f $(OBJ_DIR)/*.bin
+	@rm -f $(OBJ_DIR)/$(TARGET)
 	@rm -f $(OBJ_DIR)/*.elf
 	
 run: 
